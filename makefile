@@ -4,7 +4,7 @@
 PROGRAM = code
 
 CXX = g++
-CXXFLAGS = -IStanfordCPPLib -fvisibility-inlines-hidden -g -std=c++11
+CXXFLAGS = -IStanfordCPPLib -fvisibility-inlines-hidden -g -std=c++14
 
 CPP_FILES = $(wildcard Basic/*.cpp)
 H_FILES = $(wildcard Basic/*.h)
